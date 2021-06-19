@@ -60,7 +60,7 @@ def build_similarity_matrix(sentences, stop_words):
     return similarity_matrix
 
 
-def generate_summary(file_name, top_n=5):
+def generate_summary(file_name, top_n=4):
     stop_words = stopwords.words('english')
     summarize_text = []
 
@@ -95,4 +95,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
